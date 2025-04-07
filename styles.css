@@ -56,11 +56,43 @@ ul {
 }
 
 .sign-up{
-    background-color: #3882F6;
+    background-color: lightcoral;
     color: white;
     padding: 12px 32px;
     width:fit-content;
     border-radius: 12px;
     font-size: 18px;
     font-weight: 800;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    align-items: center;
+    gap: 20px;
+}
+
+.facts{
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.fact{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    text-align: center;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.fact-img img, .desc-section img{
+    border: 5px solid lightcoral;
+    border-radius: 12px;
 }
