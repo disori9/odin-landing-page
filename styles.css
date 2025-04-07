@@ -96,3 +96,30 @@ ul {
     border: 5px solid lightcoral;
     border-radius: 12px;
 }
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 240px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.full-quote{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
