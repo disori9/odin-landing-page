@@ -37,7 +37,7 @@ ul {
     align-items: center;
 }
 
-.description{
+.desc-section .description{
     display: flex;
     flex-direction: column;
     width: 720px;
@@ -122,4 +122,42 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.sign-section{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+
+.sign-up-container{
+    display: flex;
+    background-color: lightcoral;
+    align-items: center;
+    width: 1000px;
+    height: 120px;
+    border-radius: 12px;
+    color: white;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.sign-up-container .description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.sign-up-container .description .header{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.sign-up-tour{
+    background-color: lightcoral;
+    border: 3px solid white;
+    color: white;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
 }
